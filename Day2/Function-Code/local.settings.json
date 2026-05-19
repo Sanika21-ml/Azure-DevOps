@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "STORAGE_ACCOUNT_NAME": "storagepvtend001",
+    "STORAGE_CONTAINER_NAME": "blobcontainertxt",
+    "COSMOSDB_ENDPOINT": "https://cosmosdbtestacc011.documents.azure.com:443/",
+    "COSMOSDB_DATABASE_NAME": "appdb-test",
+    "COSMOSDB_CONTAINER_NAME": "itemsdb",
+    "KEY_VAULT_URI": "https://secretkey-01.vault.azure.net/"
+  }
+}

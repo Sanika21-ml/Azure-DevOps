@@ -1,0 +1,14 @@
+{
+  "name": "function-app",
+  "version": "1.0.0",
+  "description": "Azure Functions app for Blob Storage and Cosmos DB using Managed Identity",
+  "scripts": {
+    "start": "function start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0",
+    "@azure/identity": "^4.4.1",
+    "@azure/storage-blob": "^12.25.0",
+    "@azure/cosmos": "^4.1.0"
+  }
+}

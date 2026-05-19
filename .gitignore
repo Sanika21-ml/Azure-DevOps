@@ -1,0 +1,58 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+.terraform.tfstate.backup
+C:\Users\S\Desktop\Training-Devops\Day1\.terraform
+C:\Users\S\Desktop\Training-Devops\Day1\.terraform.lock.hcl
+C:\Users\S\Desktop\Training-Devops\Day2\environment\dev\.terraform
+C:\Users\S\Desktop\Training-Devops\Day2\environment\dev\terraform.tfstate
+C:\Users\S\Desktop\Training-Devops\Day2\environment\dev\.terraform.lock.hcl
+
+
+# Terraform Variables
+*.tfvars
+*.tfvars.json
+
+# VS Code
+.vscode/
+
+# Java / Maven
+target/
+bin/
+obj/
+
+# Node Modules
+node_modules/
+
+# Logs
+*.log
+
+# Environment Files
+.env
+.env.*
+
+# Azure
+.azure/
+
+# Build Folders
+dist/
+build/
+out/
+
+# IntelliJ / Eclipse
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS Files
+.DS_Store
+Thumbs.db
