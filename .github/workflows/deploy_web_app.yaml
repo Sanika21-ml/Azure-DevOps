@@ -26,12 +26,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd webapp-code
+          cd Day3/webapp-code
           npm install
 
       - name: Build application
         run: |
-          cd webapp-code
+          cd Day3/webapp-code
           npm run build --if-present
 
       - name: Upload artifact

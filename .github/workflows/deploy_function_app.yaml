@@ -26,12 +26,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd function-app-code
+          cd Day3/function-app-code
           npm install
 
       - name: Build Function App
         run: |
-          cd function-app-code
+          cd Day3/function-app-code
           npm run build --if-present
 
       - name: Upload Function Artifact
