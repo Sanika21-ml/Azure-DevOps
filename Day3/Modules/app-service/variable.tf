@@ -13,3 +13,8 @@ variable "appplan" {
     default = "appserviceplan-01"
   
 }
+
+variable "webappname" {
+    default = "appdevtestweb"
+  
+}
