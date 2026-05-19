@@ -5,7 +5,7 @@ variable "resource_group" {
 }
 
 variable "location" {
-    default = "eastus"
+    default = "centralindia"
   
 }
 
@@ -23,7 +23,7 @@ variable "storage_primary_access" {
     type = string
 }
 
-variable "app_service_id" {
-    type = string
+variable "func_app_plan" {
+    default = "func_appplanservice"
   
 }

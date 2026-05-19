@@ -4,13 +4,13 @@ variable "resource_group" {
 }
 
 variable "location" {
-    default = "eastus"
+    default = "centralindia"
   
 }
 
 variable "storage" {
     description = "storage account name"
-    default = "backendstatefilegit"
+    default = "storageaccountgit001"
   
 }
 

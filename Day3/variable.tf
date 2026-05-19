@@ -4,6 +4,6 @@ variable "resource_group" {
 }
 
 variable "location" {
-    default = "eastus"
+    default = "centralindia"
   
 }

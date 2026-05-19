@@ -23,7 +23,6 @@ module "app-service" {
 
 module "function-app" {
     source = "./Modules/function-app"
-    app_service_id = module.app-service.app_service_id
     storage_name = module.storage_account.storage_name
     storage_primary_access = module.storage_account.storage_primary_access
 
