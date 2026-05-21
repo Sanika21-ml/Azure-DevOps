@@ -16,9 +16,6 @@ C:\Users\S\Desktop\Training-Devops\Day2\environment\dev\terraform.tfstate
 C:\Users\S\Desktop\Training-Devops\Day2\environment\dev\.terraform.lock.hcl
 
 
-# Terraform Variables
-*.tfvars
-*.tfvars.json
 
 # VS Code
 .vscode/
@@ -45,14 +42,3 @@ node_modules/
 dist/
 build/
 out/
-
-# IntelliJ / Eclipse
-.idea/
-*.iml
-.classpath
-.project
-.settings/
-
-# OS Files
-.DS_Store
-Thumbs.db
